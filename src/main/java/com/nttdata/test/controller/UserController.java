@@ -19,9 +19,6 @@ import java.util.UUID;
 @RequestMapping("user")
 @Validated
 public class UserController {
-
-    // TODO: Excepciones controladas
-
     @Autowired
     UserService userService;
 
